@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="lesson">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+
+    </style>
+
+    <style name="fill">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:background">@drawable/background2</item>
+    </style>
+
+    <style name="menu">
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="nav">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:background">@null</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="first">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:background">@null</item>
+    </style>
+</resources>

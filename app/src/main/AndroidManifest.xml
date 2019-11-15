@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.sahaabcv11">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Abc_menu"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Lesson1"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Lesson2"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Lesson4"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Lesson5"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Lesson6"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Lesson7"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Lesson8"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Lesson9"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Lesson10"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Lesson11"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Lesson3"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Lesson0"
+            android:screenOrientation="landscape"/>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

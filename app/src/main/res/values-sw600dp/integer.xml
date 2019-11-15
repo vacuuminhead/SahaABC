@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<integer-array name="screenx_1">
+
+</integer-array>
+    <integer name="lesson2_text_size">70</integer>
+    <integer name="lesson4_text_size">70</integer>
+    <integer name="lesson6_text_size">70</integer>
+    <integer name="lesson7_text_size">46</integer>
+    <integer name="lesson8_text_size">50</integer>
+    <integer name="lesson10_text_size">45</integer>
+    <integer name="lesson11_text_size">55</integer>
+    <integer name="TA_textsize">55</integer>
+    <integer name="TA_textsize2">35</integer>
+</resources>

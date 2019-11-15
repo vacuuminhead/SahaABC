@@ -1,0 +1,541 @@
+<resources>
+    <string name="app_name">Якутская азбука</string>
+    <string name="title_activity_lesson">Lesson</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string-array name="alphabet">
+        <item>А</item> <item>У</item> <item>И</item> <item>Ы</item> <item>О</item>
+        <item>Ө</item> <item>Э</item> <item>Ү</item> <item>С</item> <item>М</item>
+        <item>Р</item> <item>Л</item> <item>Б</item> <item>Т</item> <item>К</item>
+        <item>Х</item> <item>Н</item> <item>Й</item> <item>П</item> <item>Г</item>
+        <item>Ч</item> <item>Ҕ</item> <item>Һ</item> <item>ЫА</item> <item>УО</item>
+        <item>ИЭ</item> <item>ҮӨ</item> <item>Д</item> <item>Дь</item> <item>Ҥ</item>
+        <item>Нь</item> <item>Я</item> <item>Ю</item> <item>Е</item> <item>Ё</item>
+        <item>Ш</item> <item>В</item> <item>З</item> <item>Ж</item> <item>Ф</item>
+        <item>Ц</item> <item>Щ</item> <item>Ь</item> <item>Ъ</item>
+    </string-array>
+    <string-array name="longletter">
+        <item>АА</item> <item>УУ</item> <item>ИИ</item> <item>ЫЫ</item> <item>ОО</item>
+        <item>ӨӨ</item> <item>ЭЭ</item> <item>ҮҮ</item>
+    </string-array>
+    <string-array name="consonant">
+        <item>С</item> <item>М</item> <item>Р</item> <item>Л</item> <item>Б</item>
+        <item>Т</item> <item>К</item> <item>Х</item> <item>Н</item> <item>Й</item>
+        <item>П</item> <item>Г</item> <item>Ч</item> <item>Ҕ</item> <item>Һ</item>
+        <item>Д</item> <item>Дь</item> <item>Ҥ</item> <item>Нь</item> <item>Ш</item>
+        <item>В</item> <item>З</item> <item>Ж</item> <item>Ф</item> <item>Ц</item>
+        <item>Щ</item>
+    </string-array>
+    <string-array name="vowels">
+        <item>А</item> <item>АА</item> <item>У</item> <item>УУ</item> <item>И</item>
+        <item>ИИ</item> <item>Ы</item> <item>ЫЫ</item> <item>О</item> <item>ОО</item>
+        <item>Ө</item> <item>ӨӨ</item> <item>Э</item> <item>ЭЭ</item> <item>Ү</item>
+        <item>ҮҮ</item> <item>ЫА</item> <item>УО</item> <item>ИЭ</item> <item>ҮӨ</item>
+        <item>Я</item> <item>Ю</item> <item>Е</item> <item>Ё</item>
+        <item>УА</item> <item>ИА</item> <item>ЭА</item> <item>УА</item> <item>ОУ</item>
+        <item>ЫА</item> <item>УО</item> <item>ИЭ</item> <item>ҮӨ</item> <item>ҮО</item>
+        <item>АЭ</item> <item>ОА</item> <item>ИО</item> <item>АЫ</item> <item>ҮА</item>
+        <item>ЭИ</item> <item>ӨЭ</item> <item>ЭҮ</item> <item>ҮИ</item> <item>ИӨ</item>
+        <item>АА</item> <item>ОО</item> <item>ИИ</item> <item>ЫЫ</item> <item>ҮҮ</item>
+        <item>ЭЭ</item> <item>ӨӨ</item> <item>УУ</item>
+    </string-array>
+    <string-array name="alphabet_2">
+        <item>А</item> <item>У</item> <item>И</item> <item>Ы</item> <item>О</item>
+        <item>Ө</item> <item>Э</item> <item>Ү</item> <item>С</item> <item>М</item>
+        <item>Р</item> <item>Л</item> <item>Б</item> <item>Т</item> <item>К</item>
+        <item>Х</item> <item>Н</item> <item>Й</item> <item>П</item> <item>Г</item>
+        <item>Ч</item> <item>Ҕ</item> <item>Һ</item> <item>Д</item> <item>Дь</item>
+        <item>Ҥ</item> <item>Нь</item> <item>Я</item> <item>Ю</item> <item>Е</item>
+        <item>Ё</item> <item>Ш</item> <item>В</item> <item>З</item> <item>Ж</item>
+        <item>Ф</item> <item>Ц</item> <item>Щ</item> <item>Ь</item> <item>Ъ</item>
+    </string-array>
+    <string-array name="dif_2">
+        <item>УА</item> <item>ИА</item> <item>ЭА</item> <item>УА</item> <item>ОУ</item>
+        <item>ЫА</item> <item>УО</item> <item>ИЭ</item> <item>ҮӨ</item> <item>ҮО</item>
+        <item>АЭ</item> <item>ОА</item> <item>ИО</item> <item>АЫ</item> <item>ҮА</item>
+        <item>ЭИ</item> <item>ӨЭ</item> <item>ЭҮ</item> <item>ҮИ</item> <item>ИӨ</item>
+        <item>АА</item> <item>ОО</item> <item>ИИ</item> <item>ЫЫ</item> <item>ҮҮ</item>
+        <item>ЭЭ</item> <item>ӨӨ</item> <item>УУ</item>
+    </string-array>
+    <string-array name="syllable_s">
+        <item>АС</item> <item>ИС</item>  <item>ҮС</item> <item>ЫС</item> <item>СА</item>
+        <item>СИ</item> <item>СҮ</item> <item>СЫ</item> <item>ААС</item> <item>ИИС</item>
+        <item>ҮҮС</item> <item>ЫЫС</item> <item>САА</item> <item>СИИ</item> <item>СҮҮ</item>
+        <item>СЫЫ</item> <item>САС</item> <item>СУС</item> <item>СОС</item> <item>СЭС</item>
+        <item>СӨС</item> <item>СААС</item> <item>СҮҮС</item> <item>СЫЫС</item>
+    </string-array>
+    <string-array name="syllable_m">
+        <item>АМ</item> <item>УМ</item> <item>ЫМ</item> <item>ИМ</item>
+        <item>ЭМ</item> <item>МАА</item> <item>МУУ</item> <item>МИИ</item> <item>МҮҮ</item>
+        <item>МЫЫ</item> <item>МОО</item> <item>МЭЭ</item> <item>МАС</item> <item>МУС</item>
+        <item>МӨС</item> <item>МУУС</item> <item>МҮҮС</item> <item>СИИМ</item> <item>САМ</item>
+        <item>СУМ</item> <item>СУУМ</item> <item>МААС</item>
+    </string-array>
+    <string-array name="syllable_r">
+        <item>АР</item> <item>ОР</item> <item>УР</item> <item>ӨР</item> <item>РА</item>
+        <item>РУ</item> <item>ААР</item> <item>ООР</item> <item>ӨӨР</item> <item>УУР</item>
+        <item>РАА</item> <item>РЫЫ</item> <item>РУУ</item> <item>РҮҮ</item> <item>РЭЭ</item>
+        <item>МААР</item> <item>МАР</item> <item>МИИР</item> <item>МИР</item>
+        <item>РАР</item> <item>РИС</item> <item>РӨР</item> <item>РҮС</item> <item>СИР</item>
+    </string-array>
+    <string-array name="syllable_l">
+        <item>ЫЛ</item> <item>АЛ</item> <item>ОЛ</item> <item>УЛ</item> <item>ЛА</item>
+        <item>ЛО</item> <item>ЛҮ</item> <item>ЛИ</item> <item>ААЛ</item> <item>ООЛ</item>
+        <item>УУЛ</item> <item>ЫЫЛ</item> <item>ЛАА</item> <item>ЛОО</item> <item>ЛИИ</item>
+        <item>ЛҮҮ</item> <item>ЛЭР</item> <item>ЛЭЭР</item> <item>ЛАС</item> <item>ЛААС</item>
+        <item>ЛУУС</item> <item>САЛ</item> <item>СУЛ</item> <item>СЫЛ</item>
+    </string-array>
+    <string-array name="syllable_b">
+        <item>БАА</item> <item>БЫЫ</item> <item>БА</item> <item>БӨӨ</item> <item>БУ</item>
+        <item>БҮҮ</item> <item>БУУ</item> <item>БЭЭ</item> <item>БАР</item> <item>БААР</item>
+        <item>БИР</item> <item>БОР</item> <item>БУР</item>
+    </string-array>
+    <string-array name="syllable_t">
+        <item>АТ</item> <item>ЫТ</item> <item>ОТ</item> <item>УТ</item> <item>ТА</item>
+        <item>ТУ</item> <item>ААТ</item> <item>ЫЫТ</item> <item>ТУУ</item> <item>СОТ</item>
+        <item>БУЛТ</item> <item>ТАРТ</item> <item>ТАР</item> <item>ТАЛ</item> <item>ТИЛ</item>
+        <item>ТУУР</item> <item>ТААС</item>
+    </string-array>
+    <string-array name="syllable_k">
+        <item>АК</item> <item>ОК</item> <item>ИК</item> <item>ҮК</item> <item>ААК</item>
+        <item>ООК</item> <item>ҮҮК</item> <item>КА</item> <item>КО</item>
+        <item>КИ</item> <item>КӨ</item> <item>КҮ</item> <item>КЭ</item>
+        <item>КЫ</item> <item>КАР</item> <item>КУР</item> <item>КҮТ</item>
+        <item>КЭЛ</item> <item>ЛУК</item> <item>БУК</item> <item>ЛҮК</item> <item>ТҮК</item>
+        <item>СҮК</item>
+    </string-array>
+    <string-array name="syllable_x">
+        <item>ХА</item> <item>ХАА</item> <item>ХОО</item> <item>ХАС</item> <item>ХААС</item>
+        <item>ХАР</item> <item>ХААР</item> <item>ТОХ</item> <item>ТӨХ</item>
+        <item>ТЭЭХ</item> <item>ЛӨӨХ</item> <item>РОХ</item> <item>ХААЛ</item> <item>ЛААХ</item>
+    </string-array>
+    <string-array name="syllable_eia">
+        <item>ЫАС</item> <item>ЫАМ</item> <item>ЫАТ</item> <item>ЫАХ</item>
+        <item>ЫАЛ</item> <item>СЫА</item> <item>МЫА</item> <item>РЫА</item> <item>БЫА</item>
+        <item>ЛЫА</item> <item>СЫАХ</item> <item>ТЫАЛ</item> <item>КЫАХ</item>
+        <item>БЫАР</item> <item>ЛЫАХ</item>
+    </string-array>
+    <string-array name="syllable_uo">
+        <item>УОТ</item> <item>УОС</item> <item>УОЛ</item> <item>УОН</item> <item>МУО</item>
+        <item>ТУО</item> <item>КУО</item> <item>МУОС</item> <item>БУОР</item> <item>СУОЛ</item>
+        <item>ТУОС</item> <item>МУОХ</item> <item>КУОТ</item>
+    </string-array>
+    <string-array name="syllable_ie">
+        <item>ИЭС</item> <item>ИЭТ</item> <item>ИЭР</item> <item>ИЭЛ</item> <item>ИЭМ</item>
+        <item>СИЭ</item> <item>ТИЭ</item> <item>ЛИЭ</item> <item>РИЭ</item> <item>МИЭ</item>
+        <item>БИЭС</item> <item>СИЭТ</item> <item>БИЭР</item> <item>ТИЭР</item>
+    </string-array>
+    <string-array name="syllable_yeo">
+        <item>ҮӨС</item> <item>ҮӨТ</item> <item>ҮӨР</item> <item>ҮӨЛ</item>
+        <item>ҮӨМ</item> <item>СҮӨ</item> <item>ТҮӨ</item> <item>РҮӨ</item>
+        <item>ЛҮӨ</item> <item>МҮӨ</item> <item>БҮӨ</item> <item>СҮӨР</item> <item>БҮӨР</item>
+        <item>ТҮӨН</item> <item>ТҮӨР</item>
+    </string-array>
+    <string-array name="syllable_n">
+        <item>АН</item> <item>ҮН</item> <item>НА</item> <item>НИ</item> <item>НУ</item>
+        <item>НҮ</item> <item>ААН</item> <item>УУН</item> <item>ҮҮН</item>
+        <item>ЫЫН</item> <item>НАА</item> <item>НИИ</item> <item>НУУ</item> <item>НҮҮ</item>
+        <item>МИН</item> <item>РОН</item> <item>МҮН</item> <item>МЭН</item> <item>КИН</item>
+        <item>РЫАН</item> <item>НАР</item> <item>НААР</item> <item>НУР</item> <item>НААН</item>
+    </string-array>
+    <string-array name="syllable_j">
+        <item>ЫЙ</item> <item>ОЙ</item> <item>АЙ</item> <item>ЭЙ</item> <item>ӨЙ</item>
+        <item>УЙ</item> <item>ЙА</item> <item>ЙИЭ</item> <item>ЙЫ</item> <item>ЙУ</item>
+        <item>ЙАА</item> <item>ЙҮӨ</item> <item>ЙЫЫ</item> <item>ЙУУ</item> <item>БАЙ</item>
+        <item>ТОЙ</item> <item>СЭЙ</item> <item>ЛЫЙ</item> <item>ЙУОХ</item> <item>ЙҮӨМ</item>
+        <item>ЙИЭР</item> <item>ЙЫАС</item> <item>ЙААС</item> <item>ЙАС</item>
+    </string-array>
+    <string-array name="syllable_p">
+        <item>АП</item> <item>ПАА</item> <item>ПА</item> <item>ПЭЭ</item> <item>ПЭ</item>
+        <item>ПЫЫ</item> <item>ПЫ</item> <item>ПОО</item> <item>ПО</item> <item>ПАТ</item>
+        <item>ПОТ</item> <item>ПААС</item> <item>ПАС</item> <item>ПААР</item> <item>ПУУС</item>
+        <item>САП</item> <item>ХАП</item> <item>СИЭП</item> <item>ЛОП</item>
+    </string-array>
+    <string-array name="syllable_g">
+        <item>ГА</item> <item>ГУ</item> <item>ГУО</item> <item>ГҮӨ</item> <item>ГАА</item>
+        <item>ГУУ</item> <item>ГЭ</item> <item>ГЭЭ</item> <item>ГУОМ</item> <item>ГҮӨХ</item>
+        <item>ГЫАН</item> <item>ГИЭН</item> <item>ГАР</item> <item>ГИС</item>
+    </string-array>
+    <string-array name="syllable_ch">
+        <item>ЧӨ</item> <item>ЧО</item> <item>ЧҮ</item> <item>ЧЫ</item> <item>ЧӨӨ</item>
+        <item>ЧОО</item> <item>ЧҮҮ</item> <item>ЧЫЫ</item> <item>ЧУОР</item> <item>ЧААХ</item>
+        <item>ЧЭЭЛ</item> <item>ЧААН</item> <item>ЧОХ</item> <item>ЧӨР</item>
+    </string-array>
+    <string-array name="syllable_gh">
+        <item>ҔЫ</item> <item>ҔО</item> <item>ҔУО</item> <item>ҔҮӨ</item> <item>ҔАА</item>
+        <item>ҔЭЭ</item> <item>ҔӨ</item> <item>ҔУУ</item> <item>ҔАР</item> <item>ҔЫС</item>
+        <item>ҔЫЛ</item> <item>ҔУОМ</item> <item>ҔЫАН</item> <item>ҔИЭМ</item>
+    </string-array>
+    <string-array name="syllable_h">
+        <item>ҺА</item> <item>ҺЭ</item> <item>ҺО</item> <item>ҺӨ</item> <item>ҺИ</item>
+        <item>ҺАА</item> <item>ҺОО</item> <item>ҺУУ</item> <item>ҺАР</item> <item>ҺОН</item>
+        <item>ҺАС</item> <item>ҺААР</item> <item>ҺООН</item> <item>ҺООС</item>
+    </string-array>
+    <string-array name="syllable_d">
+        <item>ДО</item> <item>ДУ</item> <item>ДИ</item> <item>ДҮ</item> <item>ДОО</item>
+        <item>ДУУ</item> <item>ДИИ</item> <item>ДУО</item> <item>ДАР</item> <item>ДЫР</item>
+        <item>ДИР</item> <item>ДААХ</item> <item>ДИИР</item> <item>ДООМ</item>
+    </string-array>
+    <string-array name="syllable_dj">
+        <item>ДьА</item> <item>ДьИ</item> <item>ДьЭ</item> <item>ДьЫ</item> <item>ДьАА</item>
+        <item>ДьИИ</item> <item>ДьЭЭ</item> <item>ДьЫЫ</item> <item>ДьЫЛ</item> <item>ДьОЛ</item>
+        <item>ДьИК</item> <item>ДьЭС</item> <item>ДьҮС</item> <item>ДьОХ</item>
+    </string-array>
+    <string-array name="syllable_gn">
+        <item>АҤ</item> <item>ОҤ</item> <item>ӨҤ</item> <item>УҤ</item> <item>ИҤ</item>
+        <item>ҮҤ</item> <item>ҤА</item> <item>ҤО</item> <item>ҤӨ</item> <item>ҤУ</item>
+        <item>ҤИ</item> <item>ҤҮ</item> <item>ҤЭ</item> <item>ҤЫ</item> <item>ҤИЙ</item>
+        <item>ҤӨЙ</item> <item>ҤҮР</item> <item>ҤЫЙ</item> <item>ҤАР</item> <item>ТҮҤ</item>
+        <item>ТОҤ</item> <item>ҺЫҤ</item> <item>ҺҮҤ</item> <item>НАҤ</item> <item>ХАҤ</item>
+    </string-array>
+    <string-array name="syllable_nj">
+        <item>НьО</item> <item>НьОО</item> <item>НьУО</item> <item>НьА</item> <item>НьАА</item>
+        <item>НьЫА</item> <item>НьООР</item> <item>НьАР</item> <item>НьУОС</item> <item>НьЫАТ</item>
+        <item>НьОХ</item> <item>НьИМ</item>
+    </string-array>
+    <string-array name="syllable_ja">
+        <item>НЯ</item> <item>СЯ</item> <item>ДЯ</item> <item>ЛЯ</item> <item>РЯ</item>
+        <item>МЯ</item> <item>ЯТ</item> <item>ЯН</item> <item>ЯК</item> <item>ЯЛ</item>
+        <item>ЯР</item>
+    </string-array>
+    <string-array name="syllable_ju">
+        <item>ЮТ</item> <item>ЮР</item> <item>ТЮ</item> <item>ДЮ</item> <item>ЛЮ</item>
+        <item>ЛЮТ</item> <item>НЮР</item>
+    </string-array>
+    <string-array name="syllable_je">
+        <item>ЛЕ</item> <item>НЕ</item> <item>ТЕ</item> <item>СЕ</item> <item>ПЕ</item>
+        <item>РЕ</item> <item>БЕР</item> <item>ДЕР</item> <item>ТЕХ</item> <item>ПЕШ</item>
+        <item>НЕР</item> <item>ПЕР</item>
+    </string-array>
+    <string-array name="syllable_jo">
+        <item>ЁЛ</item> <item>ВЁ</item> <item>СЁ</item> <item>ЛЁ</item> <item>ЛЁТ</item>
+        <item>МЁТ</item> <item>СЁД</item> <item>ДЁР</item>
+    </string-array>
+    <string-array name="syllable_sh">
+        <item>УШ</item> <item>ША</item> <item>ШУ</item> <item>ШИ</item> <item>СУШ</item>
+        <item>САШ</item> <item>ПУШ</item> <item>ТУШ</item> <item>ШАШ</item> <item>ШУС</item>
+        <item>ШАХ</item> <item>ШАС</item>
+    </string-array>
+    <string-array name="syllable_v">
+        <item>ВА</item> <item>ВО</item> <item>ВИ</item> <item>ВЫ</item>
+        <item>ВЫШ</item> <item>ВЫС</item> <item>ВУЛ</item> <item>ВИЛ</item> <item>ВИНТ</item>
+        <item>ВЕК</item>
+    </string-array>
+    <string-array name="syllable_z">
+        <item>ЗА</item> <item>ЗЯ</item> <item>ЗУ</item> <item>ЗИ</item> <item>ЗЫ</item>
+        <item>ЗАМ</item> <item>ЗИЛ</item> <item>ЗНА</item> <item>ЗЮМ</item> <item>ЗВО</item>
+        <item>ЗНАЙ</item>
+    </string-array>
+    <string-array name="syllable_zh">
+        <item>ЖА</item> <item>ЖУ</item> <item>ЖЕ</item> <item>ЖИ</item> <item>ЖАР</item>
+        <item>ЖУЧ</item> <item>ЖЕР</item> <item>ЖЕН</item> <item>ЖАН</item> <item>ЖУР</item>
+        <item>НЕЖ</item> <item>ДОЖ</item> <item>КОРЖ</item> <item>ВОЖ</item>
+    </string-array>
+    <string-array name="syllable_f">
+        <item>ФА</item> <item>ФЕ</item> <item>ФИ</item> <item>ФО</item> <item>ФАР</item>
+        <item>ФЕР</item> <item>ФОН</item> <item>ФУТ</item> <item>ФОР</item> <item>ФЛОТ</item>
+    </string-array>
+    <string-array name="syllable_ts">
+        <item>ЦА</item> <item>ЦИ</item> <item>ЦЕ</item> <item>ЦАР</item> <item>ЦИК</item>
+        <item>ЦИКЛ</item> <item>ЦЕР</item> <item>ЦЕРТ</item> <item>ЦЕЛ</item>
+    </string-array>
+    <string-array name="syllable_sth">
+        <item>ЩА</item> <item>ЩЕ</item> <item>ЩУ</item> <item>ЩЕТ</item>
+        <item>ЩИТ</item> <item>ПЛАЩ</item> <item>БОРЩ</item>
+    </string-array>
+    <string-array name="syllable_znak1">
+        <item>РОЛЬ</item> <item>ИЛЬ</item> <item>ВАРЬ</item> <item>ТЮЛЬ</item> <item>ЯЛЬ</item>
+    </string-array>
+    <string-array name="syllable_znak2">
+        <item>СЪЕЗД</item> <item>ДЪЕЗД</item> <item>БЪЁМ</item>
+    </string-array>
+    <string-array name="syllable_s_part">
+        <item>СА</item> <item>СУ</item> <item>САА</item> <item>СҮҮ</item> <item>ЫЫС</item>
+        <item>ОС</item> <item>ЭС</item> <item>ӨС</item>
+    </string-array>
+    <string-array name="syllable_m_part">
+        <item>АС</item> <item>УС</item> <item>ӨС</item> <item>УУС</item> <item>ҮҮС</item>
+        <item>ААС</item> <item>СИИ</item> <item>СА</item> <item>СУ</item> <item>СУУ</item>
+    </string-array>
+    <string-array name="syllable_r_part">
+        <item>МАА</item> <item>МА</item> <item>МИИ</item> <item>МИ</item> <item>СИ</item>
+        <item>АР</item> <item>ИС</item> <item>ӨР</item> <item>ҮС</item>
+    </string-array>
+    <string-array name="syllable_l_part">
+        <item>ЭР</item> <item>ЭЭР</item> <item>АС</item> <item>ААС</item> <item>УУС</item>
+        <item>СА</item> <item>СУ</item> <item>СЫ</item>
+    </string-array>
+    <string-array name="syllable_b_part">
+        <item>АР</item> <item>ААР</item> <item>ИР</item> <item>ОР</item> <item>УР</item>
+    </string-array>
+    <string-array name="syllable_t_part">
+        <item>СО</item> <item>БУЛ</item> <item>ТАР</item> <item>АР</item> <item>АЛ</item>
+        <item>ИЛ</item> <item>УУР</item> <item>ААС</item>
+    </string-array>
+    <string-array name="syllable_k_part">
+        <item>АР</item> <item>УР</item> <item>ҮТ</item> <item>ЭЛ</item> <item>ЛУ</item>
+        <item>БУ</item>  <item>ЛҮ</item>  <item>ТҮ</item>  <item>СҮ</item>
+    </string-array>
+    <string-array name="syllable_x_part">
+        <item>АС</item> <item>ААС</item> <item>ОМ</item> <item>АР</item> <item>ААР</item>
+        <item>ЛАА</item> <item>ААЛ</item> <item>ТО</item> <item>ТӨ</item> <item>ТЭЭ</item>
+        <item>ЛӨӨ</item> <item>РО</item>
+    </string-array>
+    <string-array name="syllable_eia_part">
+        <item>СХ</item> <item>ТЛ</item> <item>КХ</item> <item>БР</item> <item>ЛХ</item>
+    </string-array>
+    <string-array name="syllable_uo_part">
+        <item>МС</item> <item>БР</item> <item>СЛ</item> <item>ТС</item> <item>МХ</item>
+        <item>КТ</item>
+    </string-array>
+    <string-array name="syllable_ie_part">
+        <item>БС</item> <item>СТ</item> <item>БР</item> <item>ТР</item>
+    </string-array>
+    <string-array name="syllable_yeo_part">
+        <item>СР</item> <item>БР</item> <item>ТН</item> <item>ТР</item>
+    </string-array>
+    <string-array name="syllable_n_part">
+        <item>МИ</item> <item>РО</item> <item>МҮ</item> <item>МЭ</item> <item>КИ</item>
+        <item>РЫА</item> <item>АР</item> <item>ААР</item> <item>УР</item> <item>ААН</item>
+    </string-array>
+    <string-array name="syllable_j_part">
+        <item>БА</item> <item>ТО</item> <item>СЭ</item> <item>ЛЫ</item> <item>УОХ</item>
+        <item>ҮӨМ</item> <item>ИЭР</item> <item>ЫАС</item> <item>ААС</item> <item>АС</item>
+    </string-array>
+    <string-array name="syllable_p_part">
+        <item>АТ</item> <item>ОТ</item> <item>ААС</item> <item>АС</item> <item>ААР</item>
+        <item>УУС</item> <item>СА</item> <item>ХА</item> <item>СИЭ</item> <item>ЛО</item>
+    </string-array>
+    <string-array name="syllable_g_part">
+        <item>УОМ</item> <item>ҮӨХ</item> <item>ЫАН</item> <item>ИЭН</item> <item>АР</item>
+        <item>ИС</item>
+    </string-array>
+    <string-array name="syllable_ch_part">
+        <item>УОР</item> <item>ААХ</item> <item>ЭЭЛ</item> <item>ААН</item> <item>ОХ</item>
+        <item>ӨР</item>
+    </string-array>
+    <string-array name="syllable_gh_part">
+        <item>АР</item> <item>ЫС</item> <item>ЫЛ</item> <item>УОМ</item> <item>ЫАН</item>
+        <item>ИЭМ</item>
+    </string-array>
+    <string-array name="syllable_h_part">
+        <item>АР</item> <item>ОН</item> <item>АС</item> <item>ААР</item> <item>ООН</item>
+        <item>ООС</item>
+    </string-array>
+    <string-array name="syllable_d_part">
+        <item>АР</item> <item>ЫР</item> <item>ИР</item> <item>ААХ</item> <item>ИИР</item>
+        <item>ООМ</item>
+    </string-array>
+    <string-array name="syllable_dj_part">
+        <item>ЫЛ</item> <item>ОЛ</item> <item>ИК</item> <item>ЭС</item> <item>ҮС</item>
+        <item>ОХ</item>
+    </string-array>
+    <string-array name="syllable_gn_part">
+        <item>ИЙ</item> <item>ӨЙ</item> <item>ҮР</item> <item>ЫЙ</item> <item>АР</item>
+        <item>ТО</item> <item>ҺЫ</item> <item>ҺҮ</item> <item>НА</item> <item>ХА</item>
+        <item>ТҮ</item>
+    </string-array>
+    <string-array name="syllable_nj_part">
+        <item>ООР</item> <item>АР</item> <item>УОС</item> <item>ЫАТ</item> <item>ИМ</item>
+        <item>ОХ</item>
+    </string-array>
+    <string-array name="syllable_ju_part">
+        <item>ЛТ</item> <item>НР</item>
+    </string-array>
+    <string-array name="syllable_je_part">
+        <item>БР</item> <item>ДР</item> <item>ТХ</item> <item>ПШ</item> <item>НР</item>
+        <item>ПР</item>
+    </string-array>
+    <string-array name="syllable_jo_part">
+        <item>ЛТ</item> <item>МТ</item> <item>СД</item> <item>ДР</item> <item>ПР</item>
+        <item>ВЛ</item>
+    </string-array>
+    <string-array name="syllable_sh_part">
+        <item>СУ</item> <item>СА</item> <item>ПУ</item> <item>ТУ</item> <item>ША</item>
+        <item>УС</item> <item>АХ</item> <item>АС</item>
+    </string-array>
+    <string-array name="syllable_v_part">
+        <item>ЫШ</item> <item>ЫС</item> <item>УЛ</item> <item>ИЛ</item> <item>ИНТ</item>
+        <item>ЕК</item>
+    </string-array>
+    <string-array name="syllable_z_part">
+        <item>АМ</item> <item>ИЛ</item> <item>НА</item> <item>ЮМ</item> <item>ВО</item>
+        <item>НАЙ</item>
+    </string-array>
+    <string-array name="syllable_zh_part">
+        <item>АР</item> <item>УЧ</item> <item>ЕР</item> <item>ЕН</item> <item>АН</item>
+        <item>УР</item> <item>НЕ</item> <item>ДО</item> <item>КОР</item> <item>ВО</item>
+    </string-array>
+    <string-array name="syllable_f_part">
+        <item>АР</item> <item>ЕР</item> <item>ОН</item> <item>УТ</item> <item>ОР</item>
+        <item>ЛОТ</item>
+    </string-array>
+    <string-array name="syllable_ts_part">
+        <item>АР</item> <item>ИК</item> <item>ИКЛ</item>
+        <item>ЕР</item> <item>ЕРТ</item> <item>ЕЛ</item>
+    </string-array>
+    <string-array name="syllable_sth_part">
+        <item>ЕТ</item> <item>ИТ</item> <item>ПЛА</item> <item>БОР</item>
+    </string-array>
+    <string-array name="syllable_znak1_part">
+        <item>РОЛ</item> <item>ИЛ</item> <item>ВАР</item> <item>ТЮЛ</item>
+        <item>ЯЛ</item>
+    </string-array>
+    <string-array name="syllable_znak2_part">
+        <item>СЕЗД</item> <item>ДЕЗД</item> <item>БЁМ</item>
+    </string-array>
+    <string-array name="words">
+        <item>АТ</item> <item>УЙА</item> <item>ИЛИИ</item> <item>ЫТ</item> <item>ОТ</item>
+        <item>ӨТҮЙЭ</item> <item>ЭҺЭ</item> <item>ҮТҮЛҮК</item> <item>СИБЭККИ</item> <item>МАС</item>
+        <item>РАК</item> <item>ЛЫАХ</item> <item>БАҔА</item> <item>ТИИҤ</item> <item>КУС</item>
+        <item>ХАЙЫҺАР</item> <item>НОСОРОГ</item> <item>ЙОГУРТ</item> <item>ПИНГВИН</item> <item>ГЛОБУС</item>
+        <item>ЧААСКЫ</item> <item>ДӨЛҮҺҮӨН</item> <item>ДьИЭ</item> <item>НьУОСКА</item>
+        <item>ЯБЛОКО</item> <item>ЮЛА</item> <item>ЕНОТ</item> <item>ЁЖ</item> <item>ШАРИК</item>
+        <item>ВАЗА</item> <item>ЗЕБРА</item> <item>ЖИРАФ</item> <item>ФОНАРИК</item> <item>ЦИРК</item>
+        <item>ЩИТ</item> <item>САҺЫЛ</item> <item>БИЭДЭРЭ</item> <item>ДьЭДьЭН</item> <item>ХАРЫЙА</item>
+        <item>БЭРГЭҺЭ</item> <item>ТҮННҮК</item> <item>БӨРӨ</item> <item>МЭЭЧИК</item> <item>ОРОН</item>
+        <item>ЧҮМЭЧИ</item> <item>КИНИГЭ</item> <item>ПАРОЛЬ</item> <item>ПОДЪЕЗД</item> <item>КУТУЙАХ</item>
+        <item>ЫНАХ</item>
+    </string-array>
+    <string-array name="einax">
+        <item>ЫНАХ</item> <item>il_einax</item> <item>Ы</item> <item>НАХ</item>
+    </string-array>
+    <string-array name="kutujax">
+        <item>КУТУЙАХ</item> <item>il_kutujax</item> <item>КУ</item> <item>ТУ</item> <item>ЙАХ</item>
+    </string-array>
+    <string-array name="kinige">
+        <item>КИНИГЭ</item> <item>il_kinige</item> <item>КИ</item> <item>НИ</item> <item>ГЭ</item>
+    </string-array>
+    <string-array name="oron">
+        <item>ОРОН</item> <item>il_oron</item> <item>О</item> <item>РОН</item>
+    </string-array>
+    <string-array name="meechik">
+        <item>МЭЭЧИК</item> <item>il_meechik</item> <item>МЭЭ</item> <item>ЧИК</item>
+    </string-array>
+    <string-array name="beoreo">
+        <item>БӨРӨ</item> <item>il_beoreo</item> <item>БӨ</item> <item>РӨ</item>
+    </string-array>
+    <string-array name="tynnyk">
+        <item>ТҮННҮК</item> <item>il_tynnyk</item> <item>ТҮН</item> <item>НҮК</item>
+    </string-array>
+    <string-array name="bergehe">
+        <item>БЭРГЭҺЭ</item> <item>il_bergehe</item> <item>БЭР</item> <item>ГЭ</item> <item>ҺЭ</item>
+    </string-array>
+    <string-array name="xareija">
+        <item>ХАРЫЙА</item> <item>il_xareija</item> <item>ХА</item> <item>РЫ</item> <item>ЙА</item>
+    </string-array>
+    <string-array name="djedjen">
+        <item>ДьЭДьЭН</item> <item>il_djedjen</item> <item>ДьЭ</item> <item>ДьЭН</item>
+    </string-array>
+    <string-array name="biedere">
+        <item>БИЭДЭРЭ</item> <item>il_biedere</item> <item>БИЭ</item> <item>ДЭ</item> <item>РЭ</item>
+    </string-array>
+    <string-array name="saheil">
+        <item>САҺЫЛ</item> <item>il_saheil</item> <item>СА</item> <item>ҺЫЛ</item>
+    </string-array>
+    <string-array name="sthit">
+        <item>ЩИТ</item> <item>il_sthit</item> <item>ЩИТ</item>
+    </string-array>
+    <string-array name="tsirk">
+        <item>ЦИРК</item> <item>il_tsirk</item> <item>ЦИРК</item>
+    </string-array>
+    <string-array name="fonarik">
+        <item>ФОНАРИК</item> <item>il_fonarik</item> <item>ФО</item> <item>НА</item> <item>РИК</item>
+    </string-array>
+    <string-array name="zhiraf">
+        <item>ЖИРАФ</item> <item>il_zhiraf</item> <item>ЖИ</item> <item>РАФ</item>
+    </string-array>
+    <string-array name="zebra">
+        <item>ЗЕБРА</item> <item>il_zjebra</item> <item>ЗЕ</item> <item>БРА</item>
+    </string-array>
+    <string-array name="vaza">
+        <item>ВАЗА</item> <item>il_vaza</item> <item>ВА</item> <item>ЗА</item>
+    </string-array>
+    <string-array name="sharik">
+        <item>ШАРИК</item> <item>il_sharik</item> <item>ША</item> <item>РИК</item>
+    </string-array>
+    <string-array name="jozh">
+        <item>ЁЖ</item> <item>il_jozh</item> <item>ЁЖ</item>
+    </string-array>
+    <string-array name="jenot">
+        <item>ЕНОТ</item> <item>il_jenot</item> <item>Е</item> <item>НОТ</item>
+    </string-array>
+    <string-array name="jula">
+        <item>ЮЛА</item> <item>il_jula</item> <item>Ю</item> <item>ЛА</item>
+    </string-array>
+    <string-array name="djie">
+        <item>ДьИЭ</item> <item>il_djie</item> <item>ДьИЭ</item>
+    </string-array>
+    <string-array name="globus">
+        <item>ГЛОБУС</item> <item>il_globus</item> <item>ГЛО</item> <item>БУС</item>
+    </string-array>
+    <string-array name="pingvin">
+        <item>ПИНГВИН</item> <item>il_pingvin</item> <item>ПИН</item> <item>ГВИН</item>
+    </string-array>
+    <string-array name="jogurt">
+        <item>ЙОГУРТ</item> <item>il_jogurt</item> <item>ЙО</item> <item>ГУРТ</item>
+    </string-array>
+    <string-array name="nosorog">
+        <item>НОСОРОГ</item> <item>il_nosorog</item> <item>НО</item> <item>СО</item> <item>РОГ</item>
+    </string-array>
+    <string-array name="kus">
+        <item>КУС</item> <item>il_kus</item> <item>КУС</item>
+    </string-array>
+    <string-array name="tiign">
+        <item>ТИИҤ</item> <item>il_tiign</item> <item>ТИИҤ</item>
+    </string-array>
+    <string-array name="leiax">
+        <item>ЛЫАХ</item> <item>il_leiax</item> <item>ЛЫАХ</item>
+    </string-array>
+    <string-array name="rak">
+        <item>РАК</item> <item>il_rak</item> <item>РАК</item>
+    </string-array>
+    <string-array name="mas">
+        <item>МАС</item> <item>il_mas</item> <item>МАС</item>
+    </string-array>
+    <string-array name="ot">
+        <item>ОТ</item> <item>il_ot</item> <item>ОТ</item>
+    </string-array>
+    <string-array name="eit">
+        <item>ЫТ</item> <item>il_eit</item> <item>ЫТ</item>
+    </string-array>
+    <string-array name="at">
+        <item>АТ</item> <item>il_at</item> <item>АТ</item>
+    </string-array>
+    <string-array name="uja">
+        <item>УЙА</item> <item>il_uja</item> <item>У</item> <item>ЙА</item>
+    </string-array>
+    <string-array name="ilii">
+        <item>ИЛИИ</item> <item>il_ilii</item> <item>И</item> <item>ЛИИ</item>
+    </string-array>
+    <string-array name="eotyje">
+        <item>ӨТҮЙЭ</item> <item>il_eotyje</item> <item>Ө</item> <item>ТҮ</item> <item>ЙЭ</item>
+    </string-array>
+    <string-array name="ehe">
+        <item>ЭҺЭ</item> <item>il_ehe</item> <item>Э</item> <item>ҺЭ</item>
+    </string-array>
+    <string-array name="ytylyk">
+        <item>ҮТҮЛҮК</item> <item>il_ytylyk</item> <item>Ү</item> <item>ТҮ</item> <item>ЛҮК</item>
+    </string-array>
+    <string-array name="sibekki">
+        <item>СИБЭККИ</item> <item>il_sibekki</item> <item>СИ</item> <item>БЭК</item> <item>КИ</item>
+    </string-array>
+    <string-array name="bagha">
+        <item>БАҔА</item> <item>il_bagha</item> <item>БА</item> <item>ҔА</item>
+    </string-array>
+    <string-array name="xajeihar">
+        <item>ХАЙЫҺАР</item> <item>il_xajeihar</item> <item>ХА</item> <item>ЙЫ</item> <item>ҺАР</item>
+    </string-array>
+    <string-array name="chaaskei">
+        <item>ЧААСКЫ</item> <item>il_chaaskei</item> <item>ЧААС</item> <item>КЫ</item>
+    </string-array>
+    <string-array name="deolyhyeon">
+        <item>ДӨЛҮҺҮӨН</item> <item>il_deolyhyeon</item> <item>ДӨ</item> <item>ЛҮ</item> <item>ҺҮӨН</item>
+    </string-array>
+    <string-array name="njuoska">
+        <item>НьУОСКА</item> <item>il_njuoska</item> <item>НьУОС</item> <item>КА</item>
+    </string-array>
+    <string-array name="jabloko">
+        <item>ЯБЛОКО</item> <item>il_jabloko</item> <item>Я</item> <item>БЛО</item> <item>КО</item>
+    </string-array>
+</resources>
